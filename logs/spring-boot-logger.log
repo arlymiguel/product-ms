@@ -1,0 +1,278 @@
+2021-11-18 08:15:20,169 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2021-11-18 08:15:20,176 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ProductMsApplication using Java 11.0.7 on DESKTOP-SSLAJR0 with PID 5184 (D:\Arly\Assesment\product-ms\target\classes started by 17206 in D:\Arly\Assesment\product-ms)
+2021-11-18 08:15:20,178 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-18 08:15:20,212 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-11-18 08:15:20,213 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-11-18 08:15:20,772 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-18 08:15:20,811 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 33 ms. Found 2 JPA repository interfaces.
+2021-11-18 08:15:20,960 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=f3a1d8aa-5ab3-3e87-822c-d114104c7aee
+2021-11-18 08:15:21,421 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-11-18 08:15:21,427 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-11-18 08:15:21,428 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-11-18 08:15:21,428 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-18 08:15:21,499 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-11-18 08:15:21,499 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1285 ms
+2021-11-18 08:15:21,521 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2021-11-18 08:15:21,600 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2021-11-18 08:15:21,605 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:productsdb'
+2021-11-18 08:15:21,673 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [restartedMain] Flyway Community Edition 7.7.3 by Redgate
+2021-11-18 08:15:21,686 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [restartedMain] Database: jdbc:h2:mem:productsdb (H2 1.4)
+2021-11-18 08:15:21,750 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [restartedMain] Successfully validated 1 migration (execution time 00:00.020s)
+2021-11-18 08:15:21,762 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [restartedMain] Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+2021-11-18 08:15:21,787 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [restartedMain] 0 rows affected
+2021-11-18 08:15:21,790 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [restartedMain] 0 rows affected
+2021-11-18 08:15:21,813 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [restartedMain] Current version of schema "PUBLIC": << Empty Schema >>
+2021-11-18 08:15:21,817 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [restartedMain] Migrating schema "PUBLIC" to version "1.0.0.0.0001 - init"
+2021-11-18 08:15:21,819 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [restartedMain] 0 rows affected
+2021-11-18 08:15:21,819 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [restartedMain] 0 rows affected
+2021-11-18 08:15:21,823 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [restartedMain] 0 rows affected
+2021-11-18 08:15:21,830 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [restartedMain] 0 rows affected
+2021-11-18 08:15:21,848 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [restartedMain] Successfully applied 1 migration to schema "PUBLIC", now at version v1.0.0.0.0001 (execution time 00:00.039s)
+2021-11-18 08:15:21,898 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-18 08:15:21,934 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-18 08:15:22,027 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-18 08:15:22,108 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-11-18 08:15:22,625 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-18 08:15:22,632 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-18 08:15:22,911 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-18 08:15:22,941 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-11-18 08:15:23,709 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-11-18 08:15:23,722 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-18 08:15:24,200 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ProductMsApplication in 4.91 seconds (JVM running for 5.997)
+2021-11-18 08:17:22,994 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-18 08:17:22,994 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2021-11-18 08:17:22,995 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 1 ms
+2021-11-18 08:17:23,103 INFO com.product.domain.ProductServiceImpl [http-nio-8080-exec-2] save: ProductDto(id=0, description=product 1, imageUrl=null, price=1000.0, details=[DetailDto(id=0, key=detail 1, value=value 1)])
+2021-11-18 08:17:46,438 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-6] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-18 08:17:46,438 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [Thread-6] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-11-18 08:17:46,645 WARN org.springframework.beans.factory.support.DisposableBeanAdapter [Thread-6] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2021-11-18 08:17:46,645 INFO com.zaxxer.hikari.HikariDataSource [Thread-6] HikariPool-1 - Shutdown initiated...
+2021-11-18 08:17:46,650 INFO com.zaxxer.hikari.HikariDataSource [Thread-6] HikariPool-1 - Shutdown completed.
+2021-11-18 08:20:02,811 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2021-11-18 08:20:02,822 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ProductMsApplication using Java 11.0.7 on DESKTOP-SSLAJR0 with PID 26640 (D:\Arly\Assesment\product-ms\target\classes started by 17206 in D:\Arly\Assesment\product-ms)
+2021-11-18 08:20:02,824 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-18 08:20:02,862 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-11-18 08:20:02,862 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-11-18 08:20:03,480 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-18 08:20:03,521 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 33 ms. Found 2 JPA repository interfaces.
+2021-11-18 08:20:03,659 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=f3a1d8aa-5ab3-3e87-822c-d114104c7aee
+2021-11-18 08:20:04,062 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-11-18 08:20:04,068 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-11-18 08:20:04,069 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-11-18 08:20:04,069 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-18 08:20:04,140 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-11-18 08:20:04,140 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1277 ms
+2021-11-18 08:20:04,164 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2021-11-18 08:20:04,244 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2021-11-18 08:20:04,249 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:productsdb'
+2021-11-18 08:20:04,315 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [restartedMain] Flyway Community Edition 7.7.3 by Redgate
+2021-11-18 08:20:04,327 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [restartedMain] Database: jdbc:h2:mem:productsdb (H2 1.4)
+2021-11-18 08:20:04,377 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [restartedMain] Successfully validated 1 migration (execution time 00:00.017s)
+2021-11-18 08:20:04,387 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [restartedMain] Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+2021-11-18 08:20:04,420 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [restartedMain] 0 rows affected
+2021-11-18 08:20:04,422 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [restartedMain] 0 rows affected
+2021-11-18 08:20:04,434 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [restartedMain] Current version of schema "PUBLIC": << Empty Schema >>
+2021-11-18 08:20:04,437 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [restartedMain] Migrating schema "PUBLIC" to version "1.0.0.0.0001 - init"
+2021-11-18 08:20:04,439 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [restartedMain] 0 rows affected
+2021-11-18 08:20:04,439 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [restartedMain] 0 rows affected
+2021-11-18 08:20:04,443 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [restartedMain] 0 rows affected
+2021-11-18 08:20:04,447 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [restartedMain] 0 rows affected
+2021-11-18 08:20:04,462 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [restartedMain] Successfully applied 1 migration to schema "PUBLIC", now at version v1.0.0.0.0001 (execution time 00:00.032s)
+2021-11-18 08:20:04,505 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-18 08:20:04,539 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-18 08:20:04,626 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-18 08:20:04,705 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-11-18 08:20:05,211 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-18 08:20:05,218 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-18 08:20:05,532 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-18 08:20:05,562 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-11-18 08:20:06,336 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-11-18 08:20:06,349 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-18 08:20:06,842 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ProductMsApplication in 4.956 seconds (JVM running for 6.004)
+2021-11-18 08:20:12,010 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-18 08:20:12,011 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-11-18 08:20:12,012 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2021-11-18 08:20:12,118 INFO com.product.domain.ProductServiceImpl [http-nio-8080-exec-1] save: ProductDto(id=0, description=product 1, imageUrl=null, price=1000.0, details=[DetailDto(id=0, key=detail 1, value=value 1)])
+2021-11-18 08:20:36,841 INFO com.product.domain.ProductServiceImpl [http-nio-8080-exec-3] get: 1
+2021-11-18 08:21:06,295 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(9)-127.0.0.1] Application shutdown requested.
+2021-11-18 08:21:06,620 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [RMI TCP Connection(9)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-18 08:21:06,620 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [RMI TCP Connection(9)-127.0.0.1] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-11-18 08:21:06,828 WARN org.springframework.beans.factory.support.DisposableBeanAdapter [RMI TCP Connection(9)-127.0.0.1] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2021-11-18 08:21:06,829 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(9)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2021-11-18 08:21:06,833 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(9)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2021-11-18 08:34:37,893 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2021-11-18 08:34:37,907 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ProductMsApplication using Java 11.0.7 on DESKTOP-SSLAJR0 with PID 20072 (D:\Arly\Assesment\product-ms\target\classes started by 17206 in D:\Arly\Assesment\product-ms)
+2021-11-18 08:34:37,932 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-18 08:34:37,975 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-11-18 08:34:37,975 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-11-18 08:34:38,815 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-18 08:34:38,863 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 41 ms. Found 2 JPA repository interfaces.
+2021-11-18 08:34:39,025 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=ff394a5c-fa18-3534-a4c6-9193fb6fdf95
+2021-11-18 08:34:39,460 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-11-18 08:34:39,469 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-11-18 08:34:39,469 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-11-18 08:34:39,470 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-18 08:34:39,557 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-11-18 08:34:39,558 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1582 ms
+2021-11-18 08:34:39,637 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2021-11-18 08:34:39,765 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2021-11-18 08:34:39,771 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:productsdb'
+2021-11-18 08:34:39,845 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [restartedMain] Flyway Community Edition 7.7.3 by Redgate
+2021-11-18 08:34:39,859 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [restartedMain] Database: jdbc:h2:mem:productsdb (H2 1.4)
+2021-11-18 08:34:39,924 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [restartedMain] Successfully validated 1 migration (execution time 00:00.019s)
+2021-11-18 08:34:39,933 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [restartedMain] Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+2021-11-18 08:34:39,959 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [restartedMain] 0 rows affected
+2021-11-18 08:34:39,961 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [restartedMain] 0 rows affected
+2021-11-18 08:34:39,974 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [restartedMain] Current version of schema "PUBLIC": << Empty Schema >>
+2021-11-18 08:34:39,977 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [restartedMain] Migrating schema "PUBLIC" to version "1.0.0.0.0001 - init"
+2021-11-18 08:34:39,978 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [restartedMain] 0 rows affected
+2021-11-18 08:34:39,978 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [restartedMain] 0 rows affected
+2021-11-18 08:34:39,982 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [restartedMain] 0 rows affected
+2021-11-18 08:34:39,987 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [restartedMain] 0 rows affected
+2021-11-18 08:34:39,999 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [restartedMain] Successfully applied 1 migration to schema "PUBLIC", now at version v1.0.0.0.0001 (execution time 00:00.031s)
+2021-11-18 08:34:40,054 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-18 08:34:40,105 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-18 08:34:40,234 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-18 08:34:40,348 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-11-18 08:34:40,953 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-18 08:34:40,960 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-18 08:34:41,292 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-18 08:34:41,327 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-11-18 08:34:42,322 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-11-18 08:34:42,338 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-18 08:34:42,412 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(3)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-18 08:34:42,413 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(3)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2021-11-18 08:34:42,414 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(3)-127.0.0.1] Completed initialization in 1 ms
+2021-11-18 08:34:42,899 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2021-11-18 08:34:42,900 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8081"]
+2021-11-18 08:34:42,900 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-11-18 08:34:42,900 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-18 08:34:42,924 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-11-18 08:34:42,924 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 92 ms
+2021-11-18 08:34:42,934 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-11-18 08:34:42,967 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8081"]
+2021-11-18 08:34:42,969 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8081 (http) with context path ''
+2021-11-18 08:34:43,507 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ProductMsApplication in 6.518 seconds (JVM running for 7.544)
+2021-11-18 08:35:08,325 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8081-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-18 08:35:08,325 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-2] Initializing Servlet 'dispatcherServlet'
+2021-11-18 08:35:08,326 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-2] Completed initialization in 0 ms
+2021-11-18 08:36:14,845 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(12)-127.0.0.1] Application shutdown requested.
+2021-11-18 08:36:15,469 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [RMI TCP Connection(12)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-18 08:36:15,470 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [RMI TCP Connection(12)-127.0.0.1] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-11-18 08:36:15,683 WARN org.springframework.beans.factory.support.DisposableBeanAdapter [RMI TCP Connection(12)-127.0.0.1] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2021-11-18 08:36:15,685 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(12)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2021-11-18 08:36:15,691 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(12)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2021-11-18 08:49:33,207 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2021-11-18 08:49:33,213 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ProductMsApplication using Java 11.0.7 on DESKTOP-SSLAJR0 with PID 23956 (D:\Arly\Assesment\product-ms\target\classes started by 17206 in D:\Arly\Assesment\product-ms)
+2021-11-18 08:49:33,215 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-18 08:49:33,246 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-11-18 08:49:33,247 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-11-18 08:49:33,870 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-18 08:49:33,914 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 39 ms. Found 2 JPA repository interfaces.
+2021-11-18 08:49:34,026 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=aa714df6-5619-3d00-8760-4f16d17ddfdd
+2021-11-18 08:49:34,426 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-11-18 08:49:34,432 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-11-18 08:49:34,432 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-11-18 08:49:34,432 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-18 08:49:34,508 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-11-18 08:49:34,508 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1261 ms
+2021-11-18 08:49:34,578 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2021-11-18 08:49:34,642 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2021-11-18 08:49:34,646 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:productsdb'
+2021-11-18 08:49:34,711 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [restartedMain] Flyway Community Edition 7.7.3 by Redgate
+2021-11-18 08:49:34,722 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [restartedMain] Database: jdbc:h2:mem:productsdb (H2 1.4)
+2021-11-18 08:49:34,764 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [restartedMain] Successfully validated 1 migration (execution time 00:00.014s)
+2021-11-18 08:49:34,772 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [restartedMain] Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+2021-11-18 08:49:34,789 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [restartedMain] 0 rows affected
+2021-11-18 08:49:34,791 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [restartedMain] 0 rows affected
+2021-11-18 08:49:34,801 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [restartedMain] Current version of schema "PUBLIC": << Empty Schema >>
+2021-11-18 08:49:34,804 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [restartedMain] Migrating schema "PUBLIC" to version "1.0.0.0.0001 - init"
+2021-11-18 08:49:34,805 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [restartedMain] 0 rows affected
+2021-11-18 08:49:34,805 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [restartedMain] 0 rows affected
+2021-11-18 08:49:34,809 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [restartedMain] 0 rows affected
+2021-11-18 08:49:34,812 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [restartedMain] 0 rows affected
+2021-11-18 08:49:34,825 INFO org.flywaydb.core.internal.logging.slf4j.Slf4jLog [restartedMain] Successfully applied 1 migration to schema "PUBLIC", now at version v1.0.0.0.0001 (execution time 00:00.028s)
+2021-11-18 08:49:34,865 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-18 08:49:34,892 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-18 08:49:34,961 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-18 08:49:35,035 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-11-18 08:49:35,419 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-18 08:49:35,425 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-18 08:49:35,691 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-18 08:49:35,724 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-11-18 08:49:36,591 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-11-18 08:49:36,603 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-18 08:49:37,134 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2021-11-18 08:49:37,134 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8081"]
+2021-11-18 08:49:37,134 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-11-18 08:49:37,135 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-18 08:49:37,156 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-11-18 08:49:37,156 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 84 ms
+2021-11-18 08:49:37,165 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-11-18 08:49:37,186 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8081"]
+2021-11-18 08:49:37,187 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8081 (http) with context path ''
+2021-11-18 08:49:37,704 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ProductMsApplication in 5.304 seconds (JVM running for 6.222)
+2021-11-18 08:49:38,667 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(4)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-18 08:49:38,667 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(4)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2021-11-18 08:49:38,668 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(4)-127.0.0.1] Completed initialization in 1 ms
+2021-11-18 08:49:44,786 INFO com.product.application.controller.ProductController [http-nio-8080-exec-1] ##ProductController.save begin Thu Nov 18 08:49:44 COT 2021
+2021-11-18 08:49:44,786 INFO com.product.domain.ProductServiceImpl [http-nio-8080-exec-1] save: ProductDto(id=0, description=product 1, imageUrl=null, imageUrlCached=null, price=1000.0, details=[DetailDto(id=0, key=detail 1, value=value 1)])
+2021-11-18 08:49:45,634 INFO com.product.application.controller.ProductController [http-nio-8080-exec-1] ##ProductController.save end Thu Nov 18 08:49:45 COT 2021
+2021-11-18 08:49:50,016 INFO com.product.application.controller.ProductController [http-nio-8080-exec-3] ##ProductController.get begin Thu Nov 18 08:49:50 COT 2021
+2021-11-18 08:49:50,016 INFO com.product.domain.ProductServiceImpl [http-nio-8080-exec-3] get: 1
+2021-11-18 08:49:50,153 INFO com.product.application.controller.ProductController [http-nio-8080-exec-3] ##ProductController.get end Thu Nov 18 08:49:50 COT 2021
+2021-11-18 08:49:51,508 INFO com.product.application.controller.ProductController [http-nio-8080-exec-4] ##ProductController.get begin Thu Nov 18 08:49:51 COT 2021
+2021-11-18 08:49:51,508 INFO com.product.domain.ProductServiceImpl [http-nio-8080-exec-4] get: 1
+2021-11-18 08:49:51,646 INFO com.product.application.controller.ProductController [http-nio-8080-exec-4] ##ProductController.get end Thu Nov 18 08:49:51 COT 2021
+2021-11-18 08:49:52,569 INFO com.product.application.controller.ProductController [http-nio-8080-exec-5] ##ProductController.get begin Thu Nov 18 08:49:52 COT 2021
+2021-11-18 08:49:52,569 INFO com.product.domain.ProductServiceImpl [http-nio-8080-exec-5] get: 1
+2021-11-18 08:49:52,688 INFO com.product.application.controller.ProductController [http-nio-8080-exec-5] ##ProductController.get end Thu Nov 18 08:49:52 COT 2021
+2021-11-18 08:49:53,335 INFO com.product.application.controller.ProductController [http-nio-8080-exec-6] ##ProductController.get begin Thu Nov 18 08:49:53 COT 2021
+2021-11-18 08:49:53,335 INFO com.product.domain.ProductServiceImpl [http-nio-8080-exec-6] get: 1
+2021-11-18 08:49:53,457 INFO com.product.application.controller.ProductController [http-nio-8080-exec-6] ##ProductController.get end Thu Nov 18 08:49:53 COT 2021
+2021-11-18 08:49:54,042 INFO com.product.application.controller.ProductController [http-nio-8080-exec-7] ##ProductController.get begin Thu Nov 18 08:49:54 COT 2021
+2021-11-18 08:49:54,042 INFO com.product.domain.ProductServiceImpl [http-nio-8080-exec-7] get: 1
+2021-11-18 08:49:54,162 INFO com.product.application.controller.ProductController [http-nio-8080-exec-7] ##ProductController.get end Thu Nov 18 08:49:54 COT 2021
+2021-11-18 08:49:54,730 INFO com.product.application.controller.ProductController [http-nio-8080-exec-8] ##ProductController.get begin Thu Nov 18 08:49:54 COT 2021
+2021-11-18 08:49:54,730 INFO com.product.domain.ProductServiceImpl [http-nio-8080-exec-8] get: 1
+2021-11-18 08:49:54,851 INFO com.product.application.controller.ProductController [http-nio-8080-exec-8] ##ProductController.get end Thu Nov 18 08:49:54 COT 2021
+2021-11-18 08:49:55,318 INFO com.product.application.controller.ProductController [http-nio-8080-exec-9] ##ProductController.get begin Thu Nov 18 08:49:55 COT 2021
+2021-11-18 08:49:55,318 INFO com.product.domain.ProductServiceImpl [http-nio-8080-exec-9] get: 1
+2021-11-18 08:49:55,436 INFO com.product.application.controller.ProductController [http-nio-8080-exec-9] ##ProductController.get end Thu Nov 18 08:49:55 COT 2021
+2021-11-18 08:49:56,020 INFO com.product.application.controller.ProductController [http-nio-8080-exec-10] ##ProductController.get begin Thu Nov 18 08:49:56 COT 2021
+2021-11-18 08:49:56,021 INFO com.product.domain.ProductServiceImpl [http-nio-8080-exec-10] get: 1
+2021-11-18 08:49:56,158 INFO com.product.application.controller.ProductController [http-nio-8080-exec-10] ##ProductController.get end Thu Nov 18 08:49:56 COT 2021
+2021-11-18 08:49:56,750 INFO com.product.application.controller.ProductController [http-nio-8080-exec-2] ##ProductController.get begin Thu Nov 18 08:49:56 COT 2021
+2021-11-18 08:49:56,750 INFO com.product.domain.ProductServiceImpl [http-nio-8080-exec-2] get: 1
+2021-11-18 08:49:56,870 INFO com.product.application.controller.ProductController [http-nio-8080-exec-2] ##ProductController.get end Thu Nov 18 08:49:56 COT 2021
+2021-11-18 08:49:57,389 INFO com.product.application.controller.ProductController [http-nio-8080-exec-1] ##ProductController.get begin Thu Nov 18 08:49:57 COT 2021
+2021-11-18 08:49:57,389 INFO com.product.domain.ProductServiceImpl [http-nio-8080-exec-1] get: 1
+2021-11-18 08:49:57,509 INFO com.product.application.controller.ProductController [http-nio-8080-exec-1] ##ProductController.get end Thu Nov 18 08:49:57 COT 2021
+2021-11-18 08:49:58,073 INFO com.product.application.controller.ProductController [http-nio-8080-exec-3] ##ProductController.get begin Thu Nov 18 08:49:58 COT 2021
+2021-11-18 08:49:58,074 INFO com.product.domain.ProductServiceImpl [http-nio-8080-exec-3] get: 1
+2021-11-18 08:49:58,189 INFO com.product.application.controller.ProductController [http-nio-8080-exec-3] ##ProductController.get end Thu Nov 18 08:49:58 COT 2021
+2021-11-18 08:49:58,774 INFO com.product.application.controller.ProductController [http-nio-8080-exec-4] ##ProductController.get begin Thu Nov 18 08:49:58 COT 2021
+2021-11-18 08:49:58,774 INFO com.product.domain.ProductServiceImpl [http-nio-8080-exec-4] get: 1
+2021-11-18 08:49:58,895 INFO com.product.application.controller.ProductController [http-nio-8080-exec-4] ##ProductController.get end Thu Nov 18 08:49:58 COT 2021
+2021-11-18 08:49:59,494 INFO com.product.application.controller.ProductController [http-nio-8080-exec-5] ##ProductController.get begin Thu Nov 18 08:49:59 COT 2021
+2021-11-18 08:49:59,494 INFO com.product.domain.ProductServiceImpl [http-nio-8080-exec-5] get: 1
+2021-11-18 08:49:59,617 INFO com.product.application.controller.ProductController [http-nio-8080-exec-5] ##ProductController.get end Thu Nov 18 08:49:59 COT 2021
+2021-11-18 08:50:03,167 INFO com.product.application.controller.ProductController [http-nio-8080-exec-6] ##ProductController.get begin Thu Nov 18 08:50:03 COT 2021
+2021-11-18 08:50:03,167 INFO com.product.domain.ProductServiceImpl [http-nio-8080-exec-6] get: 1
+2021-11-18 08:50:03,306 INFO com.product.application.controller.ProductController [http-nio-8080-exec-6] ##ProductController.get end Thu Nov 18 08:50:03 COT 2021
+2021-11-18 08:50:03,841 INFO com.product.application.controller.ProductController [http-nio-8080-exec-7] ##ProductController.get begin Thu Nov 18 08:50:03 COT 2021
+2021-11-18 08:50:03,841 INFO com.product.domain.ProductServiceImpl [http-nio-8080-exec-7] get: 1
+2021-11-18 08:50:03,960 INFO com.product.application.controller.ProductController [http-nio-8080-exec-7] ##ProductController.get end Thu Nov 18 08:50:03 COT 2021
+2021-11-18 08:50:04,538 INFO com.product.application.controller.ProductController [http-nio-8080-exec-8] ##ProductController.get begin Thu Nov 18 08:50:04 COT 2021
+2021-11-18 08:50:04,538 INFO com.product.domain.ProductServiceImpl [http-nio-8080-exec-8] get: 1
+2021-11-18 08:50:04,659 INFO com.product.application.controller.ProductController [http-nio-8080-exec-8] ##ProductController.get end Thu Nov 18 08:50:04 COT 2021
+2021-11-18 08:50:05,655 INFO com.product.application.controller.ProductController [http-nio-8080-exec-9] ##ProductController.get begin Thu Nov 18 08:50:05 COT 2021
+2021-11-18 08:50:05,655 INFO com.product.domain.ProductServiceImpl [http-nio-8080-exec-9] get: 1
+2021-11-18 08:50:05,772 INFO com.product.application.controller.ProductController [http-nio-8080-exec-9] ##ProductController.get end Thu Nov 18 08:50:05 COT 2021
+2021-11-18 08:50:09,445 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(12)-127.0.0.1] Application shutdown requested.
+2021-11-18 08:50:09,627 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(13)-127.0.0.1] Application shutdown requested.
+2021-11-18 08:50:10,071 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [RMI TCP Connection(12)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-18 08:50:10,072 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [RMI TCP Connection(12)-127.0.0.1] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-11-18 08:50:10,281 WARN org.springframework.beans.factory.support.DisposableBeanAdapter [RMI TCP Connection(12)-127.0.0.1] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2021-11-18 08:50:10,281 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(12)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2021-11-18 08:50:10,285 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(12)-127.0.0.1] HikariPool-1 - Shutdown completed.
